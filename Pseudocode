@@ -1,5 +1,5 @@
-print ("choose a meaurment")
-output 6 measurment options (distance, mass, volume,etc)
+sys.output ("choose a meaurment")
+output 6 measurment options (distance, mass, volume, time, temperature, area)
 get user input 
 if input==mass 
   output milligram, gram, kilogram 
@@ -7,6 +7,12 @@ else if input == volume
   output milligram, gram, kilogram  (cube)
 else if input==area
   output milligram, gram, kilogram  (square)
+else if input== distance
+  output cm, m ,km
+else if input== time
+  output h, m, s
+else if input== temperature
+  output c, f
   
   
   
